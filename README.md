@@ -25,6 +25,7 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate --seed
 php artisan serve
+```
 
 ## 🧱 Struktur Relasi
 - Author → hasMany(Book)
@@ -34,3 +35,4 @@ php artisan serve
 
 ```bash
 php artisan db:seed
+```
